@@ -1,0 +1,17 @@
+Verde Floresta
+#172B25
+
+Verde Musgo
+#263F35
+
+Areia
+#D9C8A3
+
+Off-White
+#F3F0E7
+
+Azul tecnológico
+#2586DC
+
+Carvão
+#202522
