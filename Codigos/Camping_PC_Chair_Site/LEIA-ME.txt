@@ -1,0 +1,18 @@
+CAMPING PC CHAIR — página inicial
+
+Arquivos:
+- index.html: estrutura da página
+- style.css: cores, layout e responsividade
+- script.js: menu mobile e ano automático
+
+Como executar:
+1. Extraia a pasta do ZIP.
+2. Abra a pasta no Visual Studio Code.
+3. Abra o arquivo index.html no navegador.
+   Opcional: use a extensão Live Server no VS Code.
+
+Observações:
+- As fotografias são carregadas de URLs do Unsplash; é necessário ter internet.
+- As fontes são carregadas do Google Fonts.
+- O layout é responsivo para desktop, tablet e celular.
+- Os links do menu navegam pelas seções desta página. Você pode depois separá-los em páginas próprias.
