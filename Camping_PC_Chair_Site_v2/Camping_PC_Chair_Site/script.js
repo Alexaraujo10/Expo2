@@ -16,3 +16,17 @@ navLinks.querySelectorAll("a").forEach((link) => {
 });
 
 document.getElementById("year").textContent = new Date().getFullYear();
+
+/* Checklist da página Dicas (salvo no navegador) */
+const checks = document.querySelectorAll("#check input");
+if (checks.length) {
+  let saved = [];
+  try { saved = JSON.parse(localStorage.getItem("cpc-check") || "[]"); } catch (e) {}
+  const counter = document.getElementById("checkCount");
+  const update = () => {
+    counter.textContent = `${[...checks].filter((c) => c.checked).length} de ${checks.length} itens separados`;
+    try { localStorage.setItem("cpc-check", JSON.stringify([...checks].map((c) => c.checked))); } catch (e) {}
+  };
+  checks.forEach((c, i) => { c.checked = !!saved[i]; c.addEventListener("change", update); });
+  update();
+}

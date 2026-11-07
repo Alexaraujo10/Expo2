@@ -1,0 +1,13 @@
+CAMPING PC CHAIR - site completo (5 paginas)
+
+Paginas: index.html, brasil.html, mundo.html, dicas.html, projeto.html
+Estilo: style.css (original) + pages.css (tema escuro e paginas novas)
+Script: script.js (menu mobile, ano e checklist)
+Imagem: imagens/cadeira.png
+
+Como usar: copie TUDO desta pasta para Codigos/Camping_PC_Chair_Site
+(substituindo os arquivos de mesmo nome) e abra index.html com Live Server.
+
+Fotos: as paginas Brasil e Mundo usam fotos genericas do Unsplash (precisa de internet).
+Para trocar, edite o src do <img> de cada card por imagens/sua-foto.jpg.
+Cor do fundo: variavel --bg no topo do pages.css.
