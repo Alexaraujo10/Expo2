@@ -1,0 +1,14 @@
+CAMPING PC CHAIR - site completo (6 paginas)
+
+Paginas: index.html, quiz.html (quiz de perfil de viajante), brasil.html, mundo.html, dicas.html, projeto.html
+Estilo: style.css (original) + pages.css (tema escuro e paginas novas)
+Script: script.js (menu mobile, ano e checklist) + quiz.js (perguntas, pontuacao e relatorio do quiz)
+Imagem: imagens/cadeira.png
+
+Como usar: copie TUDO desta pasta para Codigos/Camping_PC_Chair_Site
+(substituindo os arquivos de mesmo nome) e abra index.html com Live Server.
+
+Fotos: as paginas Brasil e Mundo usam fotos genericas do Unsplash (precisa de internet).
+Para trocar, edite o src do <img> de cada card por imagens/sua-foto.jpg.
+Cores: variaveis --navy, --accent e --accent-bright no style.css e --bg no pages.css (tema azul).
+Quiz: perguntas e destinos ficam no inicio do quiz.js (arrays Q e D). Para usar fotos reais, preencha o campo img de cada destino.
