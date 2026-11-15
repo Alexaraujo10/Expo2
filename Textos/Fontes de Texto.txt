@@ -1,4 +1,0 @@
-Tipografia
-- Títulos: Montserrat ExtraBold.
-- Subtítulos: Poppins SemiBold.
-- Textos: Inter ou Roboto.
